@@ -1,6 +1,6 @@
 public class first{
     public static void main(String[] args) {
-        double a = 50.9;
+        double a = 55.9;
         int b = -6;
          
          System.out.println("Sum =" + (a+b));

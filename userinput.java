@@ -1,11 +1,10 @@
-import java.util.Scanner;  // import
+import java.util.Scanner; // import
 
 public class userinput {
     public static void main(String[] args) {
-        Scanner sc = nwe Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number");
         int n = sc.nextInt(); // input
-        System.out.println(" You enterd = + n");
+        System.out.println("You entered = " + n);
     }
-    
 }

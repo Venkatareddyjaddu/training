@@ -11,7 +11,7 @@ public class ConditionalStatements {
         
         // ||  = or -> atleast 1 condition should be true
         //  && = and -> all the codition should be true
-        if (value > 200 || value <= 500) {
+        if (value > 500 || value <= 200) {
             System.out.println("Item is Expensive");
         }else {
             System.out.println("Item is cheap");
